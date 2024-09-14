@@ -1,0 +1,20 @@
+
+Gender,SeniorCitizen,Partner,Tenure,MonthlyCharges,TotalCharges,PaymentMethod,Contract,PaperlessBilling,Dependents,PhoneService,MultipleLines,StreamingTV,StreamingMovies,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,InternetService,PredictionTime,ModelUsed,Prediction,PredictionProbability
+Male,Yes,Yes,0,0.0,0.0,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-14,Catboost,Yes,0.648259015583702
+
+
+
+Male,Yes,Yes,0,0.0,0.0,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-14,Catboost,Yes,0.648259015583702
+Male,Yes,Yes,13,100.0,999.6,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-14,Catboost,Yes,0.6065755683643022
+Male,Yes,Yes,13,100.0,999.6,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-14,SGB,Yes,0.6790434064602742
+Male,Yes,Yes,13,100.0,999.6,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-14,Logistic Regression,Yes,0.5905562235220047
+Male,Yes,Yes,0,0.0,0.0,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-19,Catboost,Yes,0.648259015583702
+Male,Yes,Yes,3,100.0,20000.0,Electronic check,Month-to-month,No,Yes,No,No,No,No,No,No,Yes,No,Fiber optic,2024-06-19,Logistic Regression,Yes,0.7795819706790023
+Female,Yes,Yes,30,20.0,1000.0,Bank transfer (automatic),Two year,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,DSL,2024-06-19,Logistic Regression,No,0.9646421893176057
+Male,Yes,Yes,0,0.0,0.0,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-19,Catboost,Yes,0.648259015583702
+Gender,SeniorCitizen,Partner,Tenure,MonthlyCharges,TotalCharges,PaymentMethod,Contract,PaperlessBilling,Dependents,PhoneService,MultipleLines,StreamingTV,StreamingMovies,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,InternetService,PredictionTime,ModelUsed,Prediction,PredictionProbability
+Male,Yes,Yes,0,0.0,0.0,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-20,Catboost,Yes,0.648259015583702
+Gender,SeniorCitizen,Partner,Tenure,MonthlyCharges,TotalCharges,PaymentMethod,Contract,PaperlessBilling,Dependents,PhoneService,MultipleLines,StreamingTV,StreamingMovies,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,InternetService,PredictionTime,ModelUsed,Prediction,PredictionProbability
+Male,Yes,Yes,0,0.0,2303.0,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-20,Catboost,No,0.5781889369178329
+Gender,SeniorCitizen,Partner,Tenure,MonthlyCharges,TotalCharges,PaymentMethod,Contract,PaperlessBilling,Dependents,PhoneService,MultipleLines,StreamingTV,StreamingMovies,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,InternetService,PredictionTime,ModelUsed,Prediction,PredictionProbability
+Male,Yes,Yes,0,44.0,2303.0,Electronic check,Month-to-month,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Fiber optic,2024-06-20,Catboost,Yes,0.5608340042583404

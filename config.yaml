@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    apaloojoy:
+      email: apaloojoy@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Apaloo Joy
+      password: "1234" # Will be hashed automatically
+    AP:
+      email: apaloojoy@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Apaloo Joy
+      password: "trial123" # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+    apaloojoy@gmail.com
