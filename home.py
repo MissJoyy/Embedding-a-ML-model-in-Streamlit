@@ -38,9 +38,9 @@ st.markdown("###### Your Go To Machine Learning Application To Predict Customer 
 if st.session_state["authentication_status"] is None:
     st.warning("Please Log in to get access to the application")
     test_code = '''
-    Test Account
+    Test 
     username: apaloojoy
-    password: 1234
+    password: joy
     '''
     st.code(test_code)
         
@@ -48,9 +48,9 @@ elif st.session_state["authentication_status"] == False:
     st.error("Wrong username or password")
     st.info("Please Try Again")
     test_code = '''
-    Test Account
+    Test 
     username: apaloojoy
-    password: 1234
+    password: joy
     '''
     st.code(test_code)
 else:
