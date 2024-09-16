@@ -61,41 +61,13 @@ else:
     authenticator.logout('Logout', 'sidebar')
 
 
-    #define function to get animation
-    def lottie_url(url:str):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
-
-
-    lottie_img = lottie_url("https://lottie.host/80d6a368-c787-4f59-8eca-9b649cf41b1b/VdfzfJeXsp.json")
+    
 
 
     #intro talking about title 
     with st.container():
-        col1,col2 = st.columns(2)
-        with col1:
-            st.title("About us")
-            st.write("##### We are leading professionals with a diverse portfolio range⭐⭐⭐⭐⭐")
-            st.info("""
-                        ###### Our group of experts in the team operate with the following objectives:
-
-                        - ###### Explore our clients data thoroughly and decide on the most efficient classification models.
-                        - ###### Find the lifetime value of each customer and know what factors affect the rate at which customers exit a company.
-                        - ###### Predict if a customer will churn or not.""")
-        with col2:
-            st_lottie(
-        lottie_img,
-        speed=1,
-        reverse= False,
-        loop=True,
-        quality="high",
-        key="coding",
-        height=400,
-        width=500 )
-        
-
+       
+    
         col1,col2 = st.columns(2)
         with col1:
             st.header("Key Features")
@@ -120,7 +92,7 @@ else:
         with col1:
             st.header("Machine Learning Integration")
             st.write("""
-                    - You have access three trained machine learning models
+                    - You have access to three trained machine learning models
                     - Simple integration and user-friendly access
                     - Save data to local database or locally for future use
                     - Get probability of predictions
