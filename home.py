@@ -107,7 +107,7 @@ else:
             pip install -r requirements.txt
 
             #Run the application
-            streamlit run app.py
+            streamlit run home.py
             '''
             st.code(code,language="python")
 
