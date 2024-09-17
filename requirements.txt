@@ -88,3 +88,4 @@ urllib3==2.2.1
 validators==0.28.3
 watchdog==4.0.1
 wheel==0.43.0
+streamlit-option-menu==0.3.13
